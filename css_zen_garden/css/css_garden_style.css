@@ -1,0 +1,161 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+/* basic elements */
+html,body {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Baloo Thambi 2', cursive, sans-serif;
+   line-height: 1.2;
+   color: #555753;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   margin: 0;
+   padding: 0;
+}
+
+h3 {
+   font-size: 1.5rem;
+   font-family: 'Croissant One', cursive;
+   padding-bottom: 20px;
+   color: lightpink;
+}
+
+a {
+   color: lightseagreen;
+   font-weight: bold;
+}
+
+.page-wrapper {
+   width: 1200px;
+   margin: 0 auto;
+}
+
+/* section 1 */
+.intro {
+   background: url('../img/section1_bg.jpg') no-repeat center;
+   background-size: cover;
+   padding: 50px;
+}
+
+#banner h1,h2{
+   font-family: 'Shrikhand', cursive;
+   word-spacing: 10px;
+}
+#banner h1 {
+   font-size: 4.5rem;
+   letter-spacing: 4px;
+   color: lightpink;
+   filter: drop-shadow(1.5px 2px 2px rgba(0,0,0,0.8));
+}
+#banner h2 {
+   margin-bottom: 380px;
+   font-size: 2rem;
+   letter-spacing: 2px;
+}
+
+.summary {
+   width: 500px;
+   font-style: italic;
+   margin-bottom: 20px;
+}
+
+.preamble {
+   background-color: rgba(255,255,255,0.5);
+}
+.preamble h3 {
+   font-family: 'Shrikhand', cursive;
+   word-spacing: 10px;
+   padding: 10px 0;
+   color: #555753;
+}
+.preamble>p:nth-child(4) {
+   padding-bottom: 10px;
+}
+
+/* section 2 */
+.explanation,.participation {
+   width: 500px;
+   margin: 50px;
+}
+
+.participation {
+   margin-top: 0;
+   float: right;
+}
+
+/* section 3 */
+.benefits {
+   color: #FFF;
+   clear: both;
+   padding: 100px 50px;
+   text-align: center;
+   background-image: url('../img/section3_bg.jpg');
+   background-attachment: fixed;
+   background-position: top;
+}
+
+/* section 4 */
+.requirements {
+   margin: 50px;
+}
+
+.requirements h3 {
+   padding-left: 33px;
+}
+
+.requirements p {
+   width: 300px;
+   float: left;
+   padding: 0 33px;
+}
+
+.requirements>p:nth-child(6) {
+   margin-top: 50px;
+}
+
+#footer{
+   clear: both;
+   font-family: 'Libre Barcode 39 Extended Text', cursive;
+   font-size: 1.5rem;
+   padding-top: 10px;
+   margin-left: 83px;
+   margin-bottom: 50px;
+   color: lightpink;
+}
+
+/* section 5 */
+#wrapper h3 {
+   color: #555753;
+   font-size: 1rem;
+   padding-bottom: 0;
+}
+#wrapper ul {
+   color: #555753;
+   font-size: .5rem;
+   list-style: none;
+   padding-left: 0;
+
+}
+#wrapper a {
+   color: #555753;
+   text-decoration: none;
+}
+.design-selection,.design-archives,.zen-resources  {
+   float: left;
+   color: #fff;
+   margin-right: 20px;
+}
+.design-selection {
+   margin-left: 700px;
+}
